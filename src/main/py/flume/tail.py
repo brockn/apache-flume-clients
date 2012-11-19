@@ -52,8 +52,8 @@ def tail(pattern, processor):
       except OSError:
         # thrown by either os.stat or open
         pass
-    for watchedFile in watchedFiles.values():
-      if not watchedFile.newdata:
+#    for watchedFile in watchedFiles.values():
+#      if not watchedFile.newdata:
 
 
 
